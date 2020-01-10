@@ -1,6 +1,6 @@
 Name:           maven-downloader
 Version:        1.1
-Release:        5%{?dist}
+Release:        6%{?dist}
 # Maven-shared defines maven-downloader version as 1.2
 Epoch:          1
 Summary:        Maven artifact downloader
@@ -62,6 +62,9 @@ cp %{SOURCE1} LICENSE.txt
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.1-6
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:1.1-5
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
